@@ -1,0 +1,28 @@
+
+
+#inp_no_1{
+   border-radius: 10px;
+   width: 5%;
+}
+
+#inp_no_2{
+    border-radius: 10px;
+    width: 5%;
+ }
+
+ .background{
+    background-image: url("northern-lights-lake-sky-nature.jpg");
+    background-position: center;
+    background-size: cover;
+
+ }
+
+
+    #output{
+        background-color: skyblue;
+        border-top: 5px solid aquamarine;
+        padding: 10px;
+        text-align: left;
+        border-radius: 10px;
+        width: 60%;
+    }

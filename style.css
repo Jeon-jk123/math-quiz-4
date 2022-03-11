@@ -1,0 +1,21 @@
+body{
+    background-image: url("northern-lights-lake-sky-nature.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.dd{
+    width:100px;
+    height:240px;
+    padding-top:10%;
+}
+#inp1{
+    border-radius:10px;
+}
+#inp2{
+    border-radius:10px;
+}
+.w{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aquamarine;
+}

@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Math Game.</title>
+        <link rel="stylesheet" href="game.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body class="background">
+        <div class="container"></div>
+        <center>
+            <h3 id="name_1"></h3><span id="score_1"></span>
+            <h3 id="name_2"></h3><span id="score_2"></span>
+            <h1 style="color: aquamarine;">Guess IT !!</h1><hr>
+            <h3 style="color: aquamarine;" id="question">Question Turn: </h3><span id="q_1"></span>
+            <h3 style="color: aquamarine;" id="answer">Answer Turn: </h3><span id="a_1"></span>
+            <div id="output"></div>
+            <label style="color: aquamarine;">No. 1</label>
+            <input id="inp_no_1" placeholder="type a number" type="number" class="form-control"><br>
+            <label style="color: aquamarine;">No. 2</label>
+            <input id="inp_no_2" placeholder="type a number" type="number" class="form-control"><br>
+            <button onclick="send()" class="btn btn-link">Submit</button>
+        </center>
+        <script src="main.js"></script>
+    </body>
+</html>
